@@ -4,6 +4,7 @@
 Django bot 1.0.
 Used traditional django webhook style to trigger the response based on dialogflow request.
 
+(sample images at end of the document)
 
 ## Requirements:
 Dialogflow account
@@ -51,21 +52,16 @@ Enable webhook and paste the ngrok url which we generated earlier in the below f
 Provide name for the intent, provide anything in usersays section and right click to add entity(select system.any). 
 Provide action name as cryptoprice.
 Enable webhook at the end of the page.
-![Dialogflow screenshot](https://github.com/hemanthvrm/Python/blob/master/webtelegram.PNG)
 
 
-> { 
 
-	> 	Provide response at telegram resposne slot without enabling webhook
+> 	Provide response at telegram resposne slot without enabling webhook
 > at the bottom, For intents which dosen't need any action to be
 > performed.
-
 >  Ex: User Says:  Hi
 >       Telegram response: Hello 
-
 >       Or you can enable small talk for this this type of conversation with bot. 
 
->       }
 
 Once everything was setup, your bot response will be as shown in this picture
 
@@ -78,5 +74,8 @@ Similarly based on action name you can perform rest calls to different public ap
 Working on django channels instead of traditional approach.
 
 
+*Sample images: Dialogflow intent, Telegram web chat screenshot, Telegram mobile screenshot*
+
+![Dialogflow intent page](https://github.com/hemanthvrm/Python/blob/master/df_intent_1.PNG)
 
  
