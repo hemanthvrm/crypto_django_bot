@@ -41,11 +41,13 @@ Create an account in dialogflow and enable telegram bot in integrations section.
 (you can enable any bot ex:-slack/skype/fb/line)
 
 **Go to  Fulfillment tab**
+
 Enable webhook and paste the ngrok url which we generated earlier in the below format.
 
     http://5e9754f8.ngrok.io/cryptoprice/1234random/
 
 **Got to intent tab**
+
 Provide name for the intent, provide anything in usersays section and right click to add entity(select system.any). 
 Provide action name as cryptoprice.
 Enable webhook at the end of the page.
