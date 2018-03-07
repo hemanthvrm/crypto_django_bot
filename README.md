@@ -74,8 +74,11 @@ Similarly based on action name you can perform rest calls to different public ap
 Working on django channels instead of traditional approach.
 
 
-*Sample images: Dialogflow intent, Telegram web chat screenshot, Telegram mobile screenshot*
+**Sample images:**
+*Dialogflow intent, Telegram web chat screenshot, Telegram mobile screenshot*
 
 ![Dialogflow intent page](https://github.com/hemanthvrm/Python/blob/master/df_intent_1.PNG)
+![Telegram mobile chat](https://github.com/hemanthvrm/Python/blob/master/mobiletelegram.png)
+![Telegram web chat](https://github.com/hemanthvrm/Python/blob/master/webtelegram.PNG)
 
  
